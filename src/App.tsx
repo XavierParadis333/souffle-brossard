@@ -76,15 +76,15 @@ export default function App() {
       <section className="hero">
         <div className="hero-bg">
           <img
-            src="/images/hero.webp"
-            alt="Cheesecake japonais Soufflé"
+            src="/images/store.jpg"
+            alt="Boutique Soufflé Mail Champlain Brossard"
             className="hero-img"
             loading="eager"
             fetchPriority="high"
             onError={(e) => {
               (e.target as HTMLImageElement).style.display = "none";
             }}
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", objectPosition: "center 20%", width: "100%", height: "100%" }}
           />
           <div
             style={{
@@ -297,8 +297,8 @@ export default function App() {
           <div className="why-visual">
             <div className="why-img" style={{ position: "relative", height: 560 }}>
               <img
-                src="/images/editorial.webp"
-                alt="Préparation du cheesecake japonais Soufflé"
+                src="/images/store.jpg"
+                alt="Boutique Soufflé Mail Champlain Brossard"
                 loading="lazy"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = "none";
