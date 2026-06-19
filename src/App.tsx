@@ -86,34 +86,31 @@ export default function App() {
             }}
             style={{ objectFit: "cover", objectPosition: "center center", width: "100%", height: "100%" }}
           />
-          <div
-            style={{
-              position: "absolute",
-              inset: 0,
-              background: "linear-gradient(135deg, #1a0f05 0%, #2c1a08 40%, #3d2510 100%)",
-            }}
-          />
         </div>
-        <div className="hero-overlay" />
+        <div style={{
+          position: "absolute",
+          inset: 0,
+          background: "linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.45) 100%)",
+        }} />
 
         <div className="hero-content" style={{ width: "100%" }}>
-          <div className="hero-badge">
+          <div className="hero-badge" style={{ borderColor: "rgba(201,169,98,0.6)", background: "rgba(255,255,255,0.15)", backdropFilter: "blur(6px)" }}>
             <MapPin size={11} />
             Mail Champlain · Brossard — 5 succursales au Québec
           </div>
 
-          <h1 className="hero-title">
+          <h1 className="hero-title" style={{ textShadow: "0 2px 12px rgba(0,0,0,0.35)" }}>
             Le cheesecake<br />
             japonais qui<br />
             <span className="hero-title-accent">vous fera fondre.</span>
           </h1>
 
-          <p className="hero-sub">
+          <p className="hero-sub" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.3)" }}>
             Fait frais tous les jours. Technique japonaise traditionnelle,
             ingrédients premium, texture légère et aérienne comme un nuage.
           </p>
 
-          <a href="tel:5146078544" className="hero-phone">
+          <a href="tel:5146078544" className="hero-phone" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.2)" }}>
             <Phone size={22} />
             (514) 607‑8544
           </a>
