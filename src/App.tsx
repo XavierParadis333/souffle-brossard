@@ -183,8 +183,8 @@ export default function App() {
             <div className="service-card">
               <div className="service-img-wrap">
                 <img
-                  src="/images/service-1.webp"
-                  alt="Cheesecake japonais à la part"
+                  src="/images/google-3.jpg"
+                  alt="Cheesecake japonais entier pistache noix de coco"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -219,8 +219,8 @@ export default function App() {
             <div className="service-card service-card--featured">
               <div className="service-img-wrap">
                 <img
-                  src="/images/service-2.webp"
-                  alt="Gâteau japonais entier pour célébration"
+                  src="/images/store.jpg"
+                  alt="Boutique Soufflé Mail Champlain"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -255,8 +255,8 @@ export default function App() {
             <div className="service-card">
               <div className="service-img-wrap">
                 <img
-                  src="/images/service-3.webp"
-                  alt="Commande en ligne Soufflé livraison"
+                  src="/images/google-2.jpg"
+                  alt="Taiyaki chocolat pistache Soufflé"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -453,8 +453,8 @@ export default function App() {
       <section className="cta-section" id="contact">
         <div className="cta-bg">
           <img
-            src="/images/cta.webp"
-            alt="Cheesecake japonais Soufflé"
+            src="/images/google-3.jpg"
+            alt="Cheesecake japonais Soufflé pistache noix de coco"
             className="cta-img"
             loading="lazy"
             onError={(e) => {
