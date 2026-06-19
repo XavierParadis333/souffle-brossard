@@ -76,15 +76,15 @@ export default function App() {
       <section className="hero">
         <div className="hero-bg">
           <img
-            src="/images/store.jpg"
-            alt="Boutique Soufflé Mail Champlain Brossard"
+            src="/images/new-3.jpg"
+            alt="Soufflé — cheesecakes japonais collection complète"
             className="hero-img"
             loading="eager"
             fetchPriority="high"
             onError={(e) => {
               (e.target as HTMLImageElement).style.display = "none";
             }}
-            style={{ objectFit: "cover", objectPosition: "center 20%", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", objectPosition: "center center", width: "100%", height: "100%" }}
           />
           <div
             style={{
@@ -183,8 +183,8 @@ export default function App() {
             <div className="service-card">
               <div className="service-img-wrap">
                 <img
-                  src="/images/google-3.jpg"
-                  alt="Cheesecake japonais entier pistache noix de coco"
+                  src="/images/new-1.jpg"
+                  alt="Cheesecake cœur fraises bleuets noix de coco"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -219,8 +219,8 @@ export default function App() {
             <div className="service-card service-card--featured">
               <div className="service-img-wrap">
                 <img
-                  src="/images/store.jpg"
-                  alt="Boutique Soufflé Mail Champlain"
+                  src="/images/new-2.jpg"
+                  alt="Gâteau entier pistache fruits chocolat"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -453,8 +453,8 @@ export default function App() {
       <section className="cta-section" id="contact">
         <div className="cta-bg">
           <img
-            src="/images/google-3.jpg"
-            alt="Cheesecake japonais Soufflé pistache noix de coco"
+            src="/images/new-2.jpg"
+            alt="Cheesecake japonais Soufflé pistache fruits"
             className="cta-img"
             loading="lazy"
             onError={(e) => {
