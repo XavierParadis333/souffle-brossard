@@ -50,7 +50,6 @@ export default function App() {
         <div className="nav-inner">
           <a href="#" className="nav-logo">
             <span className="logo-main">Soufflé</span>
-            <span className="logo-accent">🍰</span>
           </a>
           <ul className="nav-links">
             <li><a href="#menu" className="nav-link">Menu</a></li>
@@ -481,7 +480,6 @@ export default function App() {
           <div>
             <div className="footer-logo">
               <span className="logo-main">Soufflé</span>
-              <span className="logo-accent"> 🍰</span>
             </div>
             <p className="footer-tagline">
               Cheesecakes japonais faits frais tous les jours.<br />
