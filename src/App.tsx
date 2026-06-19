@@ -58,13 +58,9 @@ export default function App() {
             <li><a href="#locations" className="nav-link">Succursales</a></li>
             <li><a href="#contact" className="nav-link">Contact</a></li>
           </ul>
-          <a
-            href="tel:5146078544"
-            className="btn-nav-cta"
-            style={{ marginLeft: "auto" }}
-          >
+          <a href="tel:4504416000" className="btn-nav-cta" style={{ marginLeft: "auto" }}>
             <Phone size={13} />
-            (514) 607‑8544
+            (450) 441‑6000
           </a>
           <button className="nav-hamburger" aria-label="Menu">
             <span /><span /><span />
@@ -77,7 +73,7 @@ export default function App() {
         <div className="hero-bg">
           <img
             src="/images/new-3.jpg"
-            alt="Soufflé — cheesecakes japonais collection complète"
+            alt="Soufflé — collection complète de cheesecakes japonais"
             className="hero-img"
             loading="eager"
             fetchPriority="high"
@@ -90,34 +86,34 @@ export default function App() {
         <div style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.45) 100%)",
+          background: "linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.52) 100%)",
         }} />
 
         <div className="hero-content" style={{ width: "100%" }}>
-          <div className="hero-badge" style={{ borderColor: "rgba(201,169,98,0.6)", background: "rgba(255,255,255,0.15)", backdropFilter: "blur(6px)" }}>
+          <div className="hero-badge" style={{ borderColor: "rgba(201,169,98,0.6)", background: "rgba(255,255,255,0.12)", backdropFilter: "blur(6px)" }}>
             <MapPin size={11} />
-            Mail Champlain · Brossard — 5 succursales au Québec
+            CF Promenades Saint-Bruno — 5 succursales au Québec
           </div>
 
-          <h1 className="hero-title" style={{ textShadow: "0 2px 12px rgba(0,0,0,0.35)" }}>
+          <h1 className="hero-title" style={{ textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}>
             Le cheesecake<br />
             japonais qui<br />
             <span className="hero-title-accent">vous fera fondre.</span>
           </h1>
 
-          <p className="hero-sub" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.3)" }}>
+          <p className="hero-sub" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.35)" }}>
             Fait frais tous les jours. Technique japonaise traditionnelle,
             ingrédients premium, texture légère et aérienne comme un nuage.
           </p>
 
-          <a href="tel:5146078544" className="hero-phone" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.2)" }}>
+          <a href="tel:4504416000" className="hero-phone" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.25)" }}>
             <Phone size={22} />
-            (514) 607‑8544
+            (450) 441‑6000
           </a>
 
           <div className="hero-actions">
             <a
-              href="https://www.ubereats.com/ca/store/souffle-brossard/k7dUjxLiVdOvQVgc0e_UXw"
+              href="https://www.ubereats.com/ca-fr/store/souffle/iJSso7XTSMmXprt2sCS2IA"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -141,12 +137,12 @@ export default function App() {
       <section className="stats-band">
         <div className="stats-inner">
           <div className="stat-item">
-            <span className="stat-number">4.5<span className="stat-plus">★</span></span>
+            <span className="stat-number">5.0<span className="stat-plus">★</span></span>
             <span className="stat-label">Note Google</span>
           </div>
           <div className="stat-divider" />
           <div className="stat-item">
-            <span className="stat-number">200<span className="stat-plus">+</span></span>
+            <span className="stat-number">81<span className="stat-plus">+</span></span>
             <span className="stat-label">Avis clients</span>
           </div>
           <div className="stat-divider" />
@@ -181,7 +177,7 @@ export default function App() {
               <div className="service-img-wrap">
                 <img
                   src="/images/new-1.jpg"
-                  alt="Cheesecake cœur fraises bleuets noix de coco"
+                  alt="Cheesecake coeur fraises bleuets noix de coco"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -206,7 +202,7 @@ export default function App() {
                   <li><Star size={12} /> Caramel & noix de coco</li>
                   <li><Star size={12} /> Royal Dubaï (édition spéciale)</li>
                 </ul>
-                <a href="https://www.ubereats.com/ca/store/souffle-brossard/k7dUjxLiVdOvQVgc0e_UXw" target="_blank" rel="noopener noreferrer" className="service-link">
+                <a href="https://www.ubereats.com/ca-fr/store/souffle/iJSso7XTSMmXprt2sCS2IA" target="_blank" rel="noopener noreferrer" className="service-link">
                   Commander <ArrowRight size={12} />
                 </a>
               </div>
@@ -217,7 +213,7 @@ export default function App() {
               <div className="service-img-wrap">
                 <img
                   src="/images/new-2.jpg"
-                  alt="Gâteau entier pistache fruits chocolat"
+                  alt="Gâteau japonais entier pistache fruits chocolat"
                   className="service-img"
                   loading="lazy"
                   onError={(e) => {
@@ -242,7 +238,7 @@ export default function App() {
                   <li><Star size={12} /> Personnalisable avec vos garnitures</li>
                   <li><Star size={12} /> Emballage cadeau disponible</li>
                 </ul>
-                <a href="tel:5146078544" className="service-link service-link--accent">
+                <a href="tel:4504416000" className="service-link service-link--accent">
                   Nous contacter <ArrowRight size={12} />
                 </a>
               </div>
@@ -271,7 +267,7 @@ export default function App() {
                 <h3 className="service-title">Livraison & Emporter</h3>
                 <p className="service-desc">
                   Commandez en ligne via Uber Eats pour la livraison à domicile,
-                  ou passez nous voir directement au Mail Champlain. Nos cheesecakes
+                  ou passez nous voir directement aux Promenades Saint-Bruno. Nos cheesecakes
                   sont prêts à emporter dans un emballage soigné.
                 </p>
                 <ul className="service-list">
@@ -279,7 +275,7 @@ export default function App() {
                   <li><Star size={12} /> Commande en ligne 24/7</li>
                   <li><Star size={12} /> Ramassage en boutique</li>
                 </ul>
-                <a href="https://www.ubereats.com/ca/store/souffle-brossard/k7dUjxLiVdOvQVgc0e_UXw" target="_blank" rel="noopener noreferrer" className="service-link">
+                <a href="https://www.ubereats.com/ca-fr/store/souffle/iJSso7XTSMmXprt2sCS2IA" target="_blank" rel="noopener noreferrer" className="service-link">
                   Uber Eats <ArrowRight size={12} />
                 </a>
               </div>
@@ -295,7 +291,7 @@ export default function App() {
             <div className="why-img" style={{ position: "relative", height: 560 }}>
               <img
                 src="/images/store.jpg"
-                alt="Boutique Soufflé Mail Champlain Brossard"
+                alt="Boutique Soufflé Promenades Saint-Bruno"
                 loading="lazy"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = "none";
@@ -312,10 +308,10 @@ export default function App() {
               />
             </div>
             <div className="why-badge-float">
-              <span className="why-badge-num">4.5</span>
+              <span className="why-badge-num">5.0</span>
               <div>
                 <div className="why-badge-text">Note Google</div>
-                <div className="why-badge-text">200+ avis</div>
+                <div className="why-badge-text">81+ avis</div>
               </div>
             </div>
           </div>
@@ -362,13 +358,7 @@ export default function App() {
       </section>
 
       {/* ── LOCATIONS ── */}
-      <section
-        id="locations"
-        style={{
-          background: "var(--clr-light)",
-          padding: "7rem 0",
-        }}
-      >
+      <section id="locations" style={{ background: "var(--clr-light)", padding: "7rem 0" }}>
         <div className="section-inner">
           <div className="section-header">
             <span className="section-eyebrow">Nos succursales</span>
@@ -378,65 +368,48 @@ export default function App() {
             </h2>
           </div>
 
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-              gap: "1.5px",
-              background: "rgba(0,0,0,0.08)",
-            }}
-          >
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+            gap: "1.5px",
+            background: "rgba(0,0,0,0.08)",
+          }}>
             {[
-              { name: "Mail Champlain", address: "2151 Boul. Lapinière K08, Brossard", hours: "Lun–Mer 10h–18h · Jeu–Ven 10h–21h" },
-              { name: "Centre Eaton", address: "705 Rue Ste-Catherine O #1-264, Montréal", hours: "Lun–Ven 10h–19h · Sam 11h–17h30" },
-              { name: "Village / Centre-Sud", address: "1215 Rue Ste-Catherine E, Montréal", hours: "Lun–Ven 10h–19h · Sam 11h–17h30" },
-              { name: "CF Promenades St-Bruno", address: "1000 Boul. Belvédère S, St-Bruno", hours: "Lun–Mer 10h–17h30 · Jeu–Ven 10h–21h" },
-              { name: "Galerie d'Anjou", address: "7999 Boul. Les Galeries d'Anjou, Montréal", hours: "Lun–Mer 10h–17h30 · Jeu–Ven 10h–21h" },
+              { name: "CF Promenades Saint-Bruno", address: "1 Boul. des Promenades, Saint-Bruno-de-Montarville", hours: "Lun–Mar 10h–18h · Mer–Ven 10h–21h · Sam 9h–17h · Dim 10h–17h", featured: true },
+              { name: "Centre Eaton", address: "705 Rue Ste-Catherine O #1-264, Montréal", hours: "Lun–Ven 10h–19h · Sam 11h–17h30 · Dim 11h–18h", featured: false },
+              { name: "Village / Centre-Sud", address: "1215 Rue Ste-Catherine E, Montréal", hours: "Lun–Ven 10h–19h · Sam 11h–17h30 · Dim 11h–18h", featured: false },
+              { name: "Galerie d'Anjou", address: "7999 Boul. Les Galeries d'Anjou, Montréal", hours: "Lun–Mer 10h–17h30 · Jeu–Ven 10h–21h · Sam 9h–17h", featured: false },
+              { name: "Gare Centrale", address: "895 Rue de la Gauchetière O, Montréal", hours: "Lun–Ven 7h–19h · Sam–Dim 8h–17h", featured: false },
             ].map((loc) => (
               <div
                 key={loc.name}
                 style={{
-                  background: "var(--clr-white)",
+                  background: loc.featured ? "var(--clr-dark-2)" : "var(--clr-white)",
                   padding: "2rem",
                   transition: "transform 0.25s ease",
                 }}
                 onMouseEnter={(e) => (e.currentTarget.style.transform = "translateY(-4px)")}
                 onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
               >
-                <div
-                  style={{
-                    width: 8,
-                    height: 8,
-                    background: "var(--clr-gold)",
-                    marginBottom: "1.25rem",
-                  }}
-                />
-                <h3
-                  style={{
-                    fontFamily: "var(--font-title)",
-                    fontSize: "1.2rem",
-                    marginBottom: "0.75rem",
-                    color: "var(--clr-text-dark)",
-                  }}
-                >
+                <div style={{ width: 8, height: 8, background: "var(--clr-gold)", marginBottom: "1.25rem" }} />
+                <h3 style={{
+                  fontFamily: "var(--font-title)",
+                  fontSize: "1.2rem",
+                  marginBottom: "0.75rem",
+                  color: loc.featured ? "var(--clr-text-light)" : "var(--clr-text-dark)",
+                }}>
                   {loc.name}
+                  {loc.featured && <span style={{ fontSize: "0.65rem", fontFamily: "var(--font-body)", letterSpacing: "0.1em", marginLeft: "0.75rem", color: "var(--clr-gold)", textTransform: "uppercase" }}>Notre boutique</span>}
                 </h3>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "flex-start",
-                    gap: "0.5rem",
-                    marginBottom: "0.5rem",
-                  }}
-                >
+                <div style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", marginBottom: "0.5rem" }}>
                   <MapPin size={13} style={{ color: "var(--clr-gold)", marginTop: 2, flexShrink: 0 }} />
-                  <span style={{ fontSize: "0.8rem", color: "var(--clr-text-muted)", lineHeight: 1.5 }}>
+                  <span style={{ fontSize: "0.8rem", color: loc.featured ? "rgba(244,243,240,0.55)" : "var(--clr-text-muted)", lineHeight: 1.5 }}>
                     {loc.address}
                   </span>
                 </div>
                 <div style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem" }}>
                   <Clock size={13} style={{ color: "var(--clr-gold)", marginTop: 2, flexShrink: 0 }} />
-                  <span style={{ fontSize: "0.75rem", color: "var(--clr-text-muted)", lineHeight: 1.5 }}>
+                  <span style={{ fontSize: "0.75rem", color: loc.featured ? "rgba(244,243,240,0.4)" : "var(--clr-text-muted)", lineHeight: 1.5 }}>
                     {loc.hours}
                   </span>
                 </div>
@@ -459,13 +432,11 @@ export default function App() {
             }}
             style={{ objectFit: "cover", width: "100%", height: "100%" }}
           />
-          <div
-            style={{
-              position: "absolute",
-              inset: 0,
-              background: "linear-gradient(135deg, #1a0f05ee 0%, #2c1a08cc 100%)",
-            }}
-          />
+          <div style={{
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(135deg, #1a0f05ee 0%, #2c1a08cc 100%)",
+          }} />
         </div>
         <div className="cta-overlay" />
 
@@ -481,14 +452,14 @@ export default function App() {
           </h2>
 
           <p className="cta-sub">
-            Rejoignez les 200+ clients qui nous font confiance chaque semaine.
-            Passez nous voir au Mail Champlain à Brossard, ou commandez en ligne —
-            livraison rapide via Uber Eats.
+            Rejoignez les 81+ clients qui nous font confiance chaque semaine.
+            Passez nous voir aux Promenades Saint-Bruno à Saint-Bruno-de-Montarville,
+            ou commandez en ligne — livraison rapide via Uber Eats.
           </p>
 
           <div className="cta-actions">
             <a
-              href="https://www.ubereats.com/ca/store/souffle-brossard/k7dUjxLiVdOvQVgc0e_UXw"
+              href="https://www.ubereats.com/ca-fr/store/souffle/iJSso7XTSMmXprt2sCS2IA"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-cta-main"
@@ -496,9 +467,9 @@ export default function App() {
               <ShoppingBag size={15} />
               Commander maintenant
             </a>
-            <a href="tel:5146078544" className="btn-cta-phone">
+            <a href="tel:4504416000" className="btn-cta-phone">
               <Phone size={15} />
-              (514) 607‑8544
+              (450) 441‑6000
             </a>
           </div>
         </div>
@@ -517,17 +488,17 @@ export default function App() {
               Légers, aériens, inoubliables.
             </p>
             <div className="footer-contact">
-              <a href="tel:5146078544" className="footer-phone">
+              <a href="tel:4504416000" className="footer-phone">
                 <Phone size={14} />
-                (514) 607‑8544
+                (450) 441‑6000
               </a>
               <div className="footer-location">
                 <MapPin size={13} />
-                2151 Boul. Lapinière K08, Brossard, QC
+                1 Boul. des Promenades, Saint-Bruno-de-Montarville, QC J3V 5J5
               </div>
               <div className="footer-hours">
                 <Clock size={13} />
-                Lun–Mer 10h–18h · Jeu–Ven 10h–21h · Sam 9h–19h · Dim 10h–18h
+                Lun–Mar 10h–18h · Mer–Ven 10h–21h · Sam 9h–17h · Dim 10h–17h
               </div>
             </div>
           </div>
@@ -535,11 +506,11 @@ export default function App() {
           <div>
             <div className="footer-heading">Succursales</div>
             <ul className="footer-links">
-              <li><a href="#locations">Mail Champlain</a></li>
+              <li><a href="#locations">CF Promenades Saint-Bruno</a></li>
               <li><a href="#locations">Centre Eaton</a></li>
               <li><a href="#locations">Village / Centre-Sud</a></li>
-              <li><a href="#locations">CF Promenades St-Bruno</a></li>
               <li><a href="#locations">Galerie d'Anjou</a></li>
+              <li><a href="#locations">Gare Centrale</a></li>
             </ul>
           </div>
 
@@ -549,7 +520,7 @@ export default function App() {
               <li><a href="#menu">Cheesecake à la part</a></li>
               <li><a href="#menu">Gâteau entier</a></li>
               <li><a href="#menu">Éditions spéciales</a></li>
-              <li><a href="https://www.ubereats.com/ca/store/souffle-brossard/k7dUjxLiVdOvQVgc0e_UXw" target="_blank" rel="noopener noreferrer">Commander en ligne</a></li>
+              <li><a href="https://www.ubereats.com/ca-fr/store/souffle/iJSso7XTSMmXprt2sCS2IA" target="_blank" rel="noopener noreferrer">Commander en ligne</a></li>
             </ul>
           </div>
 
@@ -557,12 +528,8 @@ export default function App() {
             <div className="footer-heading">Suivez-nous</div>
             <ul className="footer-links">
               <li>
-                <a
-                  href="https://www.instagram.com/souffle_ca/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}
-                >
+                <a href="https://www.instagram.com/souffle_ca/" target="_blank" rel="noopener noreferrer"
+                  style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
                   <Instagram size={13} />
                   @souffle_ca
                 </a>
